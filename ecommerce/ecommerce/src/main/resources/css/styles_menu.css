@@ -29,7 +29,11 @@ body {
 .logo img {
   max-width: 150px;
   height: auto;
+  display: block; /* Esto ayuda a centrar la imagen dentro del contenedor */
+  margin: 0 auto;
 }
+
+
 
 /* Estilos para el menú de escritorio */
 .menu-container {

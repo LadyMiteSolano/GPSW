@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+        background-image: url('https://media.istockphoto.com/id/1196974664/es/foto/set-de-electrodom%C3%A9sticos-de-cocina-en-la-habitaci%C3%B3n-en-el-fondo-de-la-pared.jpg?s=612x612&w=0&k=20&c=d7r44Bfcn89FYyVcsUizkSq8m2-4Lr0fqx2rT1aC8Wg=');
+        background-size: cover;
+        background-position: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 50%;
+
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 370px; /* Cambia el valor a la cantidad de píxeles deseada */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Estilos para el botón "Regresar" */
+.login-button2 {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  background-color: 	#FF0000; /* Color rojo */
+  color: #fff; /* Color del texto */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el contenedor del formulario */
+.container {
+  margin-top: 100px;
+}

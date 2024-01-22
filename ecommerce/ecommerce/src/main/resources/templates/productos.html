@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles_productos.css">
+  <script defer src="productos.js"></script>
+  <title>Tienda de Productos</title>
+</head>
+<body>
+
+<header>
+  <h1>Tienda de Productos</h1>
+</header>
+
+<section class="product" id="product1">
+  <img src="https://img.freepik.com/fotos-premium/suero-aceite-canamo-frasco-gotero-vidrio-azul-hojas-cannabis-aisladas-sobre-fondo-blanco-hoja-cannabis-producto-cosmetico-aceite-cbd-cuidado-piel_221542-1604.jpg" alt="Producto 1">
+  <h2>Producto 1</h2>
+  <p>Descripción del Producto 1. Puedes agregar más detalles aquí.</p>
+  <p class="price">$19.99</p>
+  <button onclick="addToCart('Producto 1', 19.99)">Agregar al Carrito</button>
+</section>
+
+<section class="product" id="product2">
+  <img src="https://img.freepik.com/fotos-premium/frasco-marron-gotero-aceites-cosmeticos-o-sueros-rama-lila-blanca-sobre-fondo-beige-cosmetica-natural-cuidado-piel-cuerpo-cara_286227-2836.jpg" alt="Producto 2">
+  <h2>Producto 2</h2>
+  <p>Descripción del Producto 2. Puedes agregar más detalles aquí.</p>
+  <p class="price">$29.99</p>
+  <button onclick="addToCart('Producto 2', 29.99)">Agregar al Carrito</button>
+</section>
+
+<div id="cart">
+  <h2>Carrito de Compras</h2>
+  <ul id="cartItems"></ul>
+  <p id="total">Total: $0.00</p>
+</div>
+
+<footer>
+  <p>&copy; 2024 Tienda de Productos</p>
+</footer>
+
+<script defer src="productos.js"></script>
+</body>
+</html>
