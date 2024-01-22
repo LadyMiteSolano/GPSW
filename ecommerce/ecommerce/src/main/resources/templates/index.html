@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>BeatySubtle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautySubtle</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+
 </head>
 <body>
-
+<div class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form action="#" method="post" onsubmit="return validarInicioSesion()">
+        <input class="login-input" type="text" id="username" name="username" placeholder="Usuario" required>
+        <input class="login-input" type="password" id="password" name="password" placeholder="Contraseña" required>
+        <button class="login-button1" type="submit">Ingresar</button>
+        <button class="login-button2" onclick="window.location.href = 'registro.html';">Registrarse</button>
+        <!--<button class="login-button2" onclick="registrarse()">Registrarse</button>-->
+    </form>
+</div>
+<script src="../js/login.js"></script>
 </body>
 </html>
