@@ -27,12 +27,10 @@ body {
 
 /* Estilos para el logo */
 .logo img {
-  max-width: 150px;
-  height: auto;
+  max-width: 50px;
   display: block; /* Esto ayuda a centrar la imagen dentro del contenedor */
   margin: 0 auto;
 }
-
 
 
 /* Estilos para el menú de escritorio */
@@ -180,6 +178,33 @@ body {
   background-color: #f44336;
   color: white;
 }
+
+.img1, .img2 {
+    border-color: #ff0000; /* Borde rojo */
+}
+
+.img1:hover, .img2:hover {
+    border-color: #00ff00; /* Cambia el color del borde al pasar el ratón sobre la imagen */
+}
+
+.img1 {
+ width: 600px; /* Ancho fijo de 200 píxeles */
+ height: 400px;
+ border: 2px solid #ddd;
+ margin: 10px;
+ border-radius: 10px; /* Borde redondeado */
+ transition: border-color 0.3s ease; /* Efecto de transición en el color del borde */
+}
+
+img2{
+ width: 400px; /* Ancho fijo de 200 píxeles */
+ height: 50px;
+ border: 2px solid #ddd;
+ margin: 10px;
+ border-radius: 10px; /* Borde redondeado */
+ transition: border-color 0.3s ease; /* Efecto de transición en el color del borde */
+}
+
 
 
 /* Resto del CSS */

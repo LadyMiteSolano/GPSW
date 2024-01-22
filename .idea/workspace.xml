@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5768b09c-5ee4-44fc-97d4-58b372873089" name="Changes" comment="img">
-      <change afterPath="$PROJECT_DIR$/ecommerce/ecommerce/src/main/resources/css/styles_productos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/ecommerce/src/main/resources/css/styles_registro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/ecommerce/src/main/resources/js/productos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/ecommerce/src/main/resources/templates/productos.html" afterDir="false" />
+    <list default="true" id="5768b09c-5ee4-44fc-97d4-58b372873089" name="Changes" comment="productos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce/src/main/resources/css/styles_menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/src/main/resources/css/styles_menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce/src/main/resources/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/src/main/resources/templates/menu.html" afterDir="false" />
@@ -97,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705955381717</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="productos">
+      <created>1705957494500</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705957494500</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -105,6 +108,7 @@
     <MESSAGE value="index html" />
     <MESSAGE value="login, menu, styles" />
     <MESSAGE value="img" />
-    <option name="LAST_COMMIT_MESSAGE" value="img" />
+    <MESSAGE value="productos" />
+    <option name="LAST_COMMIT_MESSAGE" value="productos" />
   </component>
 </project>
