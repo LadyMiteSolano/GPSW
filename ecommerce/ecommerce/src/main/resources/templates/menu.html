@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles_menu.css">
+</head>
+<body>
+<header>
+</header>
+
+<div class="navbar">
+    <div class="logo">
+        <img src="img/BeautySubtle.png" alt="Logo Beauty">
+    </div>
+    <div class="menu-container">
+        <a href="#inicio">Inicio</a>
+        <div class="dropdown-container">
+            <a href="#clientes" class="dropdown">Clientes</a>
+            <ul class="submenu">
+                <a href="garantia.html">Garantía</a>
+            </ul>
+        </div>
+        <div class="dropdown-container">
+            <a href="#servicios" class="dropdown">Servicios</a>
+            <ul class="submenu">
+                <a href="instalacion.html">Instalación</a>
+                <a href="reparacion.html">Reparación</a>
+                <a href="visita_tecnica.html">Visita Técnica</a>
+                <a href="recepcion_equipo.html">Recepción de Equipo</a>
+            </ul>
+        </div>
+        <a href="#reportes">Reportes</a>
+    </div>
+    <div class="hamburger-menu">
+        <div class="hamburger"></div>
+    </div>
+</div>
+<!-- Botón de Cerrar Sesión -->
+<button class="login-button2" id="cerrar-sesion-btn">Cerrar Sesión</button>
+
+<div class="modal" id="confirmarCerrarSesionModal">
+    <div class="modal-content">
+        <p>¿Está seguro de cerrar sesión?</p>
+        <button class="modal-aceptar" onclick="cerrarSesion()">Aceptar</button>
+        <button class="modal-cancelar" onclick="cerrarModal()">Cancelar</button>
+    </div>
+</div>
+
+<!--<button class="login-button2" onclick="confirmarCerrarSesion()">Cerrar Sesión</button>-->
+<!--<button class="login-button2" onclick="window.location.href = 'index.html';">Cerrar Sesión</button>-->
+
+<div class="content" id="inicio">
+    <h1 style="text-align: center;">Bienvenidos a TEKA</h1>
+    <!-- Contenedor principal que engloba a los enlaces de las imágenes -->
+    <div class="image-container">
+        <!-- Div que contiene la primera imagen -->
+        <div class="image">
+            <img src="https://media.istockphoto.com/id/935539340/es/foto/electrodom%C3%A9sticos.jpg?s=612x612&w=0&k=20&c=wQZCXEQRZjGBZaQKAxRhbgFPlZmTG_27IhPyhEvqA2c=" alt="Electrodomésticos 1">
+            <img src="https://www.nicepng.com/png/full/295-2958189_electrodomsticos-de-lnea-blanca-tacna.png" alt="Electrodomésticos 2">
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/login.js"></script>
+<script src="/js/menu.js"></script>
+
+</body>
+</html>
